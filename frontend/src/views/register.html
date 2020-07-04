@@ -1,0 +1,59 @@
+<div class="flex flex-wrap items-center justify-center h-screen">
+  <div class="w-full px-8 md:w-1/2 md:px-0">
+    <h1 class="mb-8 text-4xl text-center text-gray-800">Trakanime</h1>
+    <form id="registerForm">
+      <div
+        class="flex items-center w-full py-2 mb-4 border-b border-b-2 border-purple-500"
+      >
+        <i class="text-purple-500 material-icons">person</i>
+        <input
+          id="username"
+          name="username"
+          type="text"
+          placeholder="Nom d'utilisateur"
+          class="w-full px-2 py-1 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
+          required
+        />
+      </div>
+      <div
+        class="flex items-center w-full py-2 mb-4 border-b border-b-2 border-purple-500"
+      >
+        <i class="text-purple-500 material-icons">email</i>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Adresse Mail"
+          class="w-full px-2 py-1 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
+          required
+        />
+      </div>
+      <div
+        class="flex items-center w-full py-2 mb-4 border-b border-b-2 border-purple-500"
+      >
+        <i class="text-purple-500 material-icons">lock</i>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Mot de passe"
+          class="w-full px-2 py-1 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
+          required
+        />
+      </div>
+      <button
+        type="submit"
+        class="w-full py-2 font-bold text-center text-white bg-purple-500 rounded hover:bg-purple-600"
+      >
+        S'inscrire
+      </button>
+    </form>
+    <div class="w-full mt-4 text-center">
+      <a
+        data-internal-link="/login"
+        class="text-purple-500 hover:text-purple-600"
+        >Vous avez deja un compte ?</a
+      >
+    </div>
+  </div>
+</div>

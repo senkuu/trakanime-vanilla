@@ -1,0 +1,23 @@
+<header>
+  <div class="container flex justify-between w-full px-5 pt-2 mx-auto">
+    <h1>Trakanime</h1>
+    <div>
+      <a href="/register">S'inscrire</a> / <a href="/login">Se connecter</a>
+    </div>
+  </div>
+</header>
+<main class="container mx-auto">
+  <h2 class="mt-16 mb-16 text-3xl text-center md:mt-24">
+    Traquez les animes que vous regardez
+  </h2>
+  <div class="max-w-full">
+    <input
+      type="text"
+      name="animeSearch"
+      id="animeSearch"
+      placeholder="Rechercher un anime"
+      class="w-full px-3 py-2 mx-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+    />
+  </div>
+  <div id="animes" class="flex flex-row flex-wrap justify-center mt-8"></div>
+</main>
